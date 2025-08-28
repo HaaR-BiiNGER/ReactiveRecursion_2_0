@@ -5,8 +5,9 @@ from governance_loop import run_governance_loop, save_log
 from compost_retirement import retire_fragments, save_retirement_log
 from compost_analytics import analyze_fragments, plot_analytics
 from rr_drift_audit import DriftAuditHook, integrate_drift_audit
-from rr_core.audit import DriftLogger, GovernanceTrigger
-from rr_core.synthesis import SynthesisQueue
+from audit import DriftLogger, GovernanceTrigger
+from synthesis import SynthesisQueue
+from governance_loop import run_governance_loop, save_log
 import json
 
 def load_governance_log(path="governance_log.json"):

@@ -1,0 +1,8 @@
+{
+  "retire_ids": ["frag001", "frag002"],
+  "criteria": {
+    "fatigue_threshold": 0.7,
+    "volatility_threshold": 0.5
+  },
+  "timestamp": "2025-08-28T10:24:00+10:00"
+}

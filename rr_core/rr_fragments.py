@@ -7,6 +7,6 @@ import os
 
 def load_fragments(path=None):
     if path is None:
-        path = os.path.join("rr-visualizer", "fragments.json")
+        path = os.path.join("rr_core", "fragments.json")
     with open(path) as f:
         return json.load(f)

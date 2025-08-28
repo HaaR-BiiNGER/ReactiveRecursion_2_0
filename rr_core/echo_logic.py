@@ -2,6 +2,13 @@ import re
 import random
 from rr_audit_log import log_event
 
+class Fragment:
+    def __init__(self, data):
+        self.id = data.get("id")
+        self.text = data.get("text")
+        self.flags = data.get("flags", [])
+        self.audit_trail = data.get("audit_trail", [])
+
 class EchoLogic:
     def __init__(self):
         self.reinterpretation_log = []
@@ -36,3 +43,13 @@ class EchoLogic:
         metaphors = ["wallaby recursion", "kookaburra cadence", "semantic compost", "governance echo"]
         pattern = r"vector (\w+)"
         return re.sub(pattern, lambda m: f"vector {random.choice(metaphors)}", text)
+
+# Ceremonial wrapper for orchestration
+def run_echo_logic(pool):
+    echo_agent = EchoLogic()
+    for fragment_data in pool:
+        fragment = Fragment(fragment_data)
+        echo_agent.reinterpret(fragment)
+
+def save_echo_log():
+    print("📝 Echo log saved (placeholder)")

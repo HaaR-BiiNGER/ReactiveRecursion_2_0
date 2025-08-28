@@ -1,0 +1,14 @@
+[
+  {
+    "id": "frag001",
+    "text": "vector agency_conflict detected in mythic pulse",
+    "flags": [],
+    "audit_trail": []
+  },
+  {
+    "id": "frag002",
+    "text": "vector identity_drift observed in recursive loop",
+    "flags": [],
+    "audit_trail": []
+  }
+]
