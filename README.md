@@ -26,6 +26,15 @@ RR 2.0 is the rebirth of a system once compromised by exposure, duplication, and
 
 ---
 
+## 🧩 Additional Agents
+
+- `agents.py`: Ambient agent registry and dispatch logic.
+- `drift_detection.py`: Detects semantic drift across fragment lineage.
+- `rr_loop.py`: Legacy rehearsal loop (deprecated but archived).
+- `rr_synthesis.py`: Alternate synthesis logic for modular invocation.
+
+---
+
 ## 📁 Documentation
 
 - `docs/CHANGELOG.md`: Mutation history, synthesis scaffolds, and governance sweeps.
