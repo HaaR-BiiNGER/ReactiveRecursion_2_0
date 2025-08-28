@@ -54,7 +54,6 @@ RR 2.0 is the rebirth of a system once compromised by exposure, duplication, and
 ## 🧭 Governance Principles
 
 - No legacy echoes  
-- No personal identifiers  
 - No orphaned fragments  
 - Every contradiction is compost  
 - Every drift is signal  
